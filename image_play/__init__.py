@@ -32,7 +32,8 @@ def placekittendotcomURL(w, h, color=True):
   Construct URL for placekitten.com from parameters.
   """
   greyscale = "" if color else "g/"
-  URL="http://placekitten.com/{}{}/{}".format( greyscale, w, h ) 
+  #URL="http://placekitten.com/{}{}/{}".format( greyscale, w, h ) 
+  #URL="https://loremflickr.com/{}{}/{}/cat".format( greyscale, w, h )
   return( URL )
   
 # https://www.pyimagesearch.com/2015/03/02/convert-url-to-image-with-python-and-opencv/
